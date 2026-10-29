@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120" />
+      <stop offset="100%" stop-color="#060913" />
+    </linearGradient>
+
+    <!-- Glowing Border Gradients -->
+    <linearGradient id="borderBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <linearGradient id="borderGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="borderAmber" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <linearGradient id="borderRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f87171" />
+      <stop offset="100%" stop-color="#dc2626" />
+    </linearGradient>
+    <linearGradient id="borderCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <linearGradient id="borderPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#9333ea" />
+    </linearGradient>
+
+    <!-- Subtle Drop Shadow -->
+    <filter id="bentoShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <style>
+    .metric-value {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+    .metric-title {
+      font-family: 'JetBrains Mono', 'Fira Code', monospace;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+    .metric-desc {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 11.5px;
+      fill: #94a3b8;
+    }
+  </style>
+
+  <!-- CARD 1: 100+ Cloud Workloads (Blue) -->
+  <g transform="translate(15, 12)" filter="url(#bentoShadow)">
+    <rect width="310" height="98" rx="14" fill="url(#cardBg)" stroke="url(#borderBlue)" stroke-width="1.2" />
+    <!-- Icon Circle -->
+    <circle cx="36" cy="36" r="18" fill="#0284c7" fill-opacity="0.15" />
+    <!-- Cloud Icon -->
+    <path d="M28 40a5 5 0 0 1-1-9.9 7 7 0 0 1 13.8-1.5 5.5 5.5 0 0 1 4.2 5.4 5.5 5.5 0 0 1-5 5.5z" fill="none" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="64" y="32" class="metric-value" font-size="23" fill="#38bdf8">100+ Workloads</text>
+    <text x="64" y="47" class="metric-title" fill="#e2e8f0">ENTERPRISE CLOUD MIGRATION</text>
+    <text x="22" y="77" class="metric-desc">Zero-downtime cutover • CAF landing zones</text>
+    <text x="22" y="91" class="metric-desc">Automated discovery &amp; dependency mapping</text>
+  </g>
+
+  <!-- CARD 2: 7+ Years Enterprise Scale (Green) -->
+  <g transform="translate(345, 12)" filter="url(#bentoShadow)">
+    <rect width="310" height="98" rx="14" fill="url(#cardBg)" stroke="url(#borderGreen)" stroke-width="1.2" />
+    <!-- Icon Circle -->
+    <circle cx="36" cy="36" r="18" fill="#059669" fill-opacity="0.15" />
+    <!-- Shield / Badge Icon -->
+    <path d="M36 24l10 4.5v7.5c0 6.5-4.5 12-10 14-5.5-2-10-7.5-10-14v-7.5z" fill="none" stroke="#34d399" stroke-width="1.8" stroke-linejoin="round"/>
+    <text x="64" y="32" class="metric-value" font-size="23" fill="#34d399">7+ Years</text>
+    <text x="64" y="47" class="metric-title" fill="#e2e8f0">LEAD DEVSECOPS &amp; ARCHITECTURE</text>
+    <text x="22" y="77" class="metric-desc">Enterprise governance • Vendor SOWs &amp; RFPs</text>
+    <text x="22" y="91" class="metric-desc">Technical Account Mgmt &amp; Team Mentoring</text>
+  </g>
+
+  <!-- CARD 3: $1.4M+ FinOps Savings (Amber) -->
+  <g transform="translate(675, 12)" filter="url(#bentoShadow)">
+    <rect width="310" height="98" rx="14" fill="url(#cardBg)" stroke="url(#borderAmber)" stroke-width="1.2" />
+    <!-- Icon Circle -->
+    <circle cx="36" cy="36" r="18" fill="#d97706" fill-opacity="0.15" />
+    <!-- Dollar / Growth Chart Icon -->
+    <path d="M26 44l6-8 5 4 9-12" fill="none" stroke="#fbbf24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M41 28h5v5" fill="none" stroke="#fbbf24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="64" y="32" class="metric-value" font-size="23" fill="#fbbf24">$1.4M+ Saved</text>
+    <text x="64" y="47" class="metric-title" fill="#e2e8f0">FINOPS CAPITAL OPTIMIZATION</text>
+    <text x="22" y="77" class="metric-desc">30%+ reduction via P95 percentile rightsizing</text>
+    <text x="22" y="91" class="metric-desc">1-yr/3-yr RIs • DCR log ingestion filtering</text>
+  </g>
+
+  <!-- CARD 4: 99.995% SLA / HA (Red/Orange) -->
+  <g transform="translate(15, 126)" filter="url(#bentoShadow)">
+    <rect width="310" height="98" rx="14" fill="url(#cardBg)" stroke="url(#borderRed)" stroke-width="1.2" />
+    <!-- Icon Circle -->
+    <circle cx="36" cy="36" r="18" fill="#dc2626" fill-opacity="0.15" />
+    <!-- High Availability / Heartbeat Icon -->
+    <path d="M24 37h5l3-7 5 13 4-8 3 4h4" fill="none" stroke="#f87171" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="64" y="32" class="metric-value" font-size="23" fill="#f87171">99.995% SLA</text>
+    <text x="64" y="47" class="metric-title" fill="#e2e8f0">HA &amp; BUSINESS CONTINUITY</text>
+    <text x="22" y="77" class="metric-desc">RTO &lt; 15 mins • RPO &lt; 5 mins active-passive</text>
+    <text x="22" y="91" class="metric-desc">Multi-AZ VMSS • Azure Site Recovery (ASR)</text>
+  </g>
+
+  <!-- CARD 5: Zero-Trust Shift-Left (Cyan) -->
+  <g transform="translate(345, 126)" filter="url(#bentoShadow)">
+    <rect width="310" height="98" rx="14" fill="url(#cardBg)" stroke="url(#borderCyan)" stroke-width="1.2" />
+    <!-- Icon Circle -->
+    <circle cx="36" cy="36" r="18" fill="#0284c7" fill-opacity="0.15" />
+    <!-- Lock / Security Check Icon -->
+    <rect x="28" y="33" width="16" height="12" rx="2" fill="none" stroke="#38bdf8" stroke-width="1.8"/>
+    <path d="M31 33v-4a5 5 0 0 1 10 0v4" fill="none" stroke="#38bdf8" stroke-width="1.8"/>
+    <text x="64" y="32" class="metric-value" font-size="23" fill="#38bdf8">Zero-Trust</text>
+    <text x="64" y="47" class="metric-title" fill="#e2e8f0">SHIFT-LEFT SECURITY PIPELINES</text>
+    <text x="22" y="77" class="metric-desc">Checkov • tfsec • Trivy • GitLeaks automated</text>
+    <text x="22" y="91" class="metric-desc">Azure Blob lease locks • Mandatory 2-peer PRs</text>
+  </g>
+
+  <!-- CARD 6: Agentic AI & MCP Systems (Purple) -->
+  <g transform="translate(675, 126)" filter="url(#bentoShadow)">
+    <rect width="310" height="98" rx="14" fill="url(#cardBg)" stroke="url(#borderPurple)" stroke-width="1.2" />
+    <!-- Icon Circle -->
+    <circle cx="36" cy="36" r="18" fill="#9333ea" fill-opacity="0.15" />
+    <!-- AI Brain / Sparkle Icon -->
+    <path d="M36 25v6M36 41v6M25 36h6M41 36h6M28 28l4 4M40 40l4 4M28 44l4-4M40 28l-4 4" stroke="#c084fc" stroke-width="1.8" stroke-linecap="round"/>
+    <circle cx="36" cy="36" r="4" fill="#c084fc" />
+    <text x="64" y="32" class="metric-value" font-size="23" fill="#c084fc">MCP &amp; Agents</text>
+    <text x="64" y="47" class="metric-title" fill="#e2e8f0">NEXT-GEN AI &amp; LLMOPS</text>
+    <text x="22" y="77" class="metric-desc">Model Context Protocol for K8s &amp; IaC triage</text>
+    <text x="22" y="91" class="metric-desc">Hybrid RAG • LangGraph • OWASP Top 10 LLM</text>
+  </g>
+</svg>
