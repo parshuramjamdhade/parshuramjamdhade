@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Ultra-Premium Hero Banner -->
-<img src="./assets/hero-banner.svg" width="100%" alt="Parshuram Jamdhade - Lead DevSecOps Architect & Enterprise AI Systems Engineer" />
+<img src="./assets/hero-banner.svg" width="100%" alt="Parshuram Jamdhade -  DevSecOps Engineer & Enterprise AI Systems Engineer" />
 
 <br/><br/>
 
@@ -38,7 +38,7 @@
 
 ## 🏛️ Executive Summary & Strategic Leadership
 
-I am a **Lead DevSecOps Architect and Enterprise Cloud & Next-Gen AI Systems Engineer** with **7+ years of deep enterprise expertise**. I design, automate, and govern mission-critical, hyper-scale cloud environments for Fortune enterprises and high-growth organizations.
+I am a ** DevSecOps Engineer and Enterprise Cloud & Next-Gen AI Systems Engineer** with **7+ years of deep enterprise expertise**. I design, automate, and govern mission-critical, hyper-scale cloud environments for Fortune enterprises and high-growth organizations.
 
 My architectural footprint bridges **Tier-1 Cloud Modernization** (orchestrating zero-downtime migrations of **100+ complex enterprise workloads** to Microsoft Azure & AWS), **End-to-End Shift-Left DevSecOps** (CIS Benchmark compliance, automated SAST/DAST, and immutable IaC delivery), **FinOps Capital Stewardship** (delivering over **$1.4M+ in audited cloud cost optimization**), and **Autonomous AI & LLMOps Infrastructure** (architecting custom **Model Context Protocol [MCP]** servers, hybrid-search RAG pipelines, and self-healing multi-agent SRE workflows).
 
