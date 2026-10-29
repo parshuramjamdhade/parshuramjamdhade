@@ -11,7 +11,7 @@
 </a>
 &nbsp;
 <a href="mailto:parshuramjamdhade@gmail.com">
-  <img src="https://img.shields.io/badge/Direct_Executive_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  <img src="https://img.shields.io/badge/Email-parshuramjamdhade%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a>
 &nbsp;
 <a href="https://github.com/parshuramjamdhade">
@@ -430,7 +430,7 @@ I partner with forward-thinking enterprise leaders, CTOs, and Engineering Direct
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;
 <a href="mailto:parshuramjamdhade@gmail.com">
-  <img src="https://img.shields.io/badge/Direct_Executive_Inquiry-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  <img src="https://img.shields.io/badge/Email_Me-parshuramjamdhade%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://github.com/parshuramjamdhade">
@@ -438,6 +438,10 @@ I partner with forward-thinking enterprise leaders, CTOs, and Engineering Direct
 </a>
 
 <br/><br/>
+
+📫 **Direct Email:** [`parshuramjamdhade@gmail.com`](mailto:parshuramjamdhade@gmail.com) &nbsp;&nbsp;|&nbsp;&nbsp; 🌐 **LinkedIn:** [`linkedin.com/in/parshuram-jamdhade`](https://www.linkedin.com/in/parshuram-jamdhade)
+
+<br/>
 
 <sub>Engineered with precision for hyper-scale enterprise resilience. © Parshuram Jamdhade. All Rights Reserved.</sub>
 
