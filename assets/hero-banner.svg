@@ -7,26 +7,47 @@
       <stop offset="100%" stop-color="#05070d" />
     </linearGradient>
 
-    <!-- Radial Glows -->
+    <!-- Radial Glows with Breathing Animation -->
     <radialGradient id="cyanGlow" cx="15%" cy="20%" r="60%">
-      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.25" />
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.28">
+        <animate attributeName="stop-opacity" values="0.28;0.12;0.28" dur="5s" repeatCount="indefinite" />
+      </stop>
       <stop offset="100%" stop-color="#00f2fe" stop-opacity="0" />
     </radialGradient>
     <radialGradient id="purpleGlow" cx="85%" cy="25%" r="60%">
-      <stop offset="0%" stop-color="#9333ea" stop-opacity="0.25" />
+      <stop offset="0%" stop-color="#9333ea" stop-opacity="0.30">
+        <animate attributeName="stop-opacity" values="0.30;0.14;0.30" dur="6s" repeatCount="indefinite" />
+      </stop>
       <stop offset="100%" stop-color="#9333ea" stop-opacity="0" />
     </radialGradient>
     <radialGradient id="blueGlow" cx="50%" cy="85%" r="50%">
-      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.20" />
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.22" />
       <stop offset="100%" stop-color="#0284c7" stop-opacity="0" />
     </radialGradient>
 
-    <!-- Border Gradient -->
+    <!-- Breathing Border Gradient -->
     <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00f2fe" />
-      <stop offset="35%" stop-color="#3b82f6" />
-      <stop offset="70%" stop-color="#9333ea" />
-      <stop offset="100%" stop-color="#00f2fe" />
+      <stop offset="0%" stop-color="#00f2fe">
+        <animate attributeName="stop-color" values="#00f2fe;#9333ea;#38bdf8;#00f2fe" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="35%" stop-color="#3b82f6">
+        <animate attributeName="stop-color" values="#3b82f6;#00f2fe;#9333ea;#3b82f6" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="70%" stop-color="#9333ea">
+        <animate attributeName="stop-color" values="#9333ea;#38bdf8;#00f2fe;#9333ea" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#00f2fe">
+        <animate attributeName="stop-color" values="#00f2fe;#9333ea;#38bdf8;#00f2fe" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Cyber Laser Scanner Gradient -->
+    <linearGradient id="scannerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0" />
+      <stop offset="20%" stop-color="#00f2fe" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.9" />
+      <stop offset="80%" stop-color="#c084fc" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#9333ea" stop-opacity="0" />
     </linearGradient>
 
     <!-- Headline Gradient -->
@@ -49,7 +70,12 @@
       <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95" />
     </linearGradient>
 
-    <!-- Pattern -->
+    <!-- Card Clipping Mask for Scanner -->
+    <clipPath id="cardClip">
+      <rect x="10" y="10" width="980" height="360" rx="18" />
+    </clipPath>
+
+    <!-- Tech Grid Pattern -->
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
       <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.75" stroke-opacity="0.45" />
       <circle cx="40" cy="40" r="1" fill="#38bdf8" fill-opacity="0.3" />
@@ -63,16 +89,57 @@
   <rect x="10" y="10" width="980" height="360" rx="18" fill="url(#purpleGlow)" />
   <rect x="10" y="10" width="980" height="360" rx="18" fill="url(#blueGlow)" />
 
-  <!-- Neon Border -->
+  <!-- Animated Cyber Laser Scanner Beam -->
+  <g clip-path="url(#cardClip)">
+    <rect x="0" y="10" width="3.5" height="360" fill="url(#scannerGrad)" opacity="0.65">
+      <animate attributeName="x" values="10;980;10" dur="6.5s" repeatCount="indefinite" />
+    </rect>
+    <!-- Subtle glow trail behind scanner -->
+    <rect x="0" y="10" width="18" height="360" fill="#00f2fe" opacity="0.08">
+      <animate attributeName="x" values="2;972;2" dur="6.5s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <!-- Twinkling Circuit Grid Nodes -->
+  <circle cx="160" cy="90" r="2" fill="#00f2fe">
+    <animate attributeName="opacity" values="0.1;0.9;0.1" dur="2.8s" repeatCount="indefinite" />
+    <animate attributeName="r" values="1.2;2.8;1.2" dur="2.8s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="840" cy="115" r="2" fill="#c084fc">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="3.5s" repeatCount="indefinite" />
+    <animate attributeName="r" values="1.2;3;1.2" dur="3.5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="560" cy="210" r="2" fill="#38bdf8">
+    <animate attributeName="opacity" values="0.1;0.8;0.1" dur="2.4s" repeatCount="indefinite" />
+    <animate attributeName="r" values="1.2;2.5;1.2" dur="2.4s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="910" cy="240" r="2" fill="#34d399">
+    <animate attributeName="opacity" values="0.1;0.95;0.1" dur="3.1s" repeatCount="indefinite" />
+    <animate attributeName="r" values="1.2;2.8;1.2" dur="3.1s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Neon Breathing Border -->
   <rect x="10" y="10" width="980" height="360" rx="18" fill="none" stroke="url(#borderGrad)" stroke-width="1.8" />
 
-  <!-- Top Status Pill (Left) -->
+  <!-- Top Status Pill (Left) with Sonar Radar Ping -->
   <g transform="translate(42, 42)">
     <rect x="0" y="0" width="460" height="30" rx="15" fill="#0f172a" fill-opacity="0.9" stroke="#334155" stroke-width="1" />
-    <circle cx="16" cy="15" r="4.5" fill="#10b981">
-      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+    
+    <!-- Central Green Core -->
+    <circle cx="16" cy="15" r="4.5" fill="#10b981" />
+    
+    <!-- Sonar Radar Ping 1 -->
+    <circle cx="16" cy="15" r="4.5" fill="none" stroke="#10b981" stroke-width="1.6">
+      <animate attributeName="r" values="4.5;16" dur="2.2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;0" dur="2.2s" repeatCount="indefinite" />
     </circle>
-    <circle cx="16" cy="15" r="7.5" fill="none" stroke="#10b981" stroke-width="1" stroke-opacity="0.5" />
+    
+    <!-- Sonar Radar Ping 2 (Offset Phase) -->
+    <circle cx="16" cy="15" r="4.5" fill="none" stroke="#34d399" stroke-width="1.2">
+      <animate attributeName="r" values="4.5;16" dur="2.2s" begin="1.1s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.8;0" dur="2.2s" begin="1.1s" repeatCount="indefinite" />
+    </circle>
+
     <text x="32" y="19" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="1">
       SYSTEM STATUS: <tspan fill="#34d399">ONLINE</tspan> • 7+ YRS ENTERPRISE CLOUD &amp; AI
     </text>

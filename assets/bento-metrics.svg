@@ -64,6 +64,10 @@
     <circle cx="36" cy="36" r="18" fill="#0284c7" fill-opacity="0.15" />
     <!-- Cloud Icon -->
     <path d="M28 40a5 5 0 0 1-1-9.9 7 7 0 0 1 13.8-1.5 5.5 5.5 0 0 1 4.2 5.4 5.5 5.5 0 0 1-5 5.5z" fill="none" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Pulse Beacon -->
+    <circle cx="285" cy="24" r="4" fill="#38bdf8">
+      <animate attributeName="opacity" values="1;0.2;1" dur="2.1s" repeatCount="indefinite" />
+    </circle>
     <text x="64" y="32" class="metric-value" font-size="23" fill="#38bdf8">100+ Workloads</text>
     <text x="64" y="47" class="metric-title" fill="#e2e8f0">ENTERPRISE CLOUD MIGRATION</text>
     <text x="22" y="77" class="metric-desc">Zero-downtime cutover • CAF landing zones</text>
@@ -77,6 +81,10 @@
     <circle cx="36" cy="36" r="18" fill="#059669" fill-opacity="0.15" />
     <!-- Shield / Badge Icon -->
     <path d="M36 24l10 4.5v7.5c0 6.5-4.5 12-10 14-5.5-2-10-7.5-10-14v-7.5z" fill="none" stroke="#34d399" stroke-width="1.8" stroke-linejoin="round"/>
+    <!-- Pulse Beacon -->
+    <circle cx="285" cy="24" r="4" fill="#34d399">
+      <animate attributeName="opacity" values="1;0.2;1" dur="2.4s" repeatCount="indefinite" />
+    </circle>
     <text x="64" y="32" class="metric-value" font-size="23" fill="#34d399">7+ Years</text>
     <text x="64" y="47" class="metric-title" fill="#e2e8f0">LEAD DEVSECOPS &amp; ARCHITECTURE</text>
     <text x="22" y="77" class="metric-desc">Enterprise governance • Vendor SOWs &amp; RFPs</text>
@@ -91,6 +99,10 @@
     <!-- Dollar / Growth Chart Icon -->
     <path d="M26 44l6-8 5 4 9-12" fill="none" stroke="#fbbf24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
     <path d="M41 28h5v5" fill="none" stroke="#fbbf24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Pulse Beacon -->
+    <circle cx="285" cy="24" r="4" fill="#fbbf24">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.8s" repeatCount="indefinite" />
+    </circle>
     <text x="64" y="32" class="metric-value" font-size="23" fill="#fbbf24">$1.4M+ Saved</text>
     <text x="64" y="47" class="metric-title" fill="#e2e8f0">FINOPS CAPITAL OPTIMIZATION</text>
     <text x="22" y="77" class="metric-desc">30%+ reduction via P95 percentile rightsizing</text>
@@ -104,6 +116,10 @@
     <circle cx="36" cy="36" r="18" fill="#dc2626" fill-opacity="0.15" />
     <!-- High Availability / Heartbeat Icon -->
     <path d="M24 37h5l3-7 5 13 4-8 3 4h4" fill="none" stroke="#f87171" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Pulse Beacon -->
+    <circle cx="285" cy="24" r="4" fill="#f87171">
+      <animate attributeName="opacity" values="1;0.2;1" dur="2.2s" repeatCount="indefinite" />
+    </circle>
     <text x="64" y="32" class="metric-value" font-size="23" fill="#f87171">99.995% SLA</text>
     <text x="64" y="47" class="metric-title" fill="#e2e8f0">HA &amp; BUSINESS CONTINUITY</text>
     <text x="22" y="77" class="metric-desc">RTO &lt; 15 mins • RPO &lt; 5 mins active-passive</text>
@@ -118,6 +134,10 @@
     <!-- Lock / Security Check Icon -->
     <rect x="28" y="33" width="16" height="12" rx="2" fill="none" stroke="#38bdf8" stroke-width="1.8"/>
     <path d="M31 33v-4a5 5 0 0 1 10 0v4" fill="none" stroke="#38bdf8" stroke-width="1.8"/>
+    <!-- Pulse Beacon -->
+    <circle cx="285" cy="24" r="4" fill="#38bdf8">
+      <animate attributeName="opacity" values="1;0.2;1" dur="2.6s" repeatCount="indefinite" />
+    </circle>
     <text x="64" y="32" class="metric-value" font-size="23" fill="#38bdf8">Zero-Trust</text>
     <text x="64" y="47" class="metric-title" fill="#e2e8f0">SHIFT-LEFT SECURITY PIPELINES</text>
     <text x="22" y="77" class="metric-desc">Checkov • tfsec • Trivy • GitLeaks automated</text>
@@ -132,6 +152,10 @@
     <!-- AI Brain / Sparkle Icon -->
     <path d="M36 25v6M36 41v6M25 36h6M41 36h6M28 28l4 4M40 40l4 4M28 44l4-4M40 28l-4 4" stroke="#c084fc" stroke-width="1.8" stroke-linecap="round"/>
     <circle cx="36" cy="36" r="4" fill="#c084fc" />
+    <!-- Pulse Beacon -->
+    <circle cx="285" cy="24" r="4" fill="#c084fc">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.9s" repeatCount="indefinite" />
+    </circle>
     <text x="64" y="32" class="metric-value" font-size="23" fill="#c084fc">MCP &amp; Agents</text>
     <text x="64" y="47" class="metric-title" fill="#e2e8f0">NEXT-GEN AI &amp; LLMOPS</text>
     <text x="22" y="77" class="metric-desc">Model Context Protocol for K8s &amp; IaC triage</text>

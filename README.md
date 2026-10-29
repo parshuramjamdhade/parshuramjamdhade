@@ -6,8 +6,8 @@
 <br/><br/>
 
 <!-- Executive Quick Connect & Status Bar -->
-<a href="[https://linkedin.com/in/parshuramjamdhade](https://www.linkedin.com/in/parshuram-jamdhade?utm_source=share_via&utm_content=profile&utm_medium=member_android)">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+<a href="https://www.linkedin.com/in/parshuram-jamdhade">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
 &nbsp;
 <a href="mailto:parshuramjamdhade@gmail.com">
@@ -24,6 +24,13 @@
 
 <!-- Bento Grid Executive Metrics -->
 <img src="./assets/bento-metrics.svg" width="100%" alt="Enterprise Impact & Key Metrics" />
+
+<br/><br/>
+
+<!-- Animated Live Architect Terminal -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&pause=1200&color=00F2FE&center=true&vCenter=true&width=860&lines=%E2%9D%AF+mcp_server.connect(%22k8s-production-cluster%22)+--%3E+CONNECTED;%E2%9D%AF+autonomous_agent.triage_alerts()+--%3E+0+UNRESOLVED+INCIDENTS;%E2%9D%AF+finops.audit_cloud_spend()+--%3E+%241%2C400%2C000%2B+ANNUAL+CAPITAL+SAVED;%E2%9D%AF+zerotrust.scan_pipeline()+--%3E+100%25+CIS+%26+SOC2+COMPLIANT;%E2%9D%AF+caf_landing_zones.deploy()+--%3E+100%2B+ENTERPRISE+WORKLOADS+LIVE" alt="Interactive Architect Terminal" />
+</a>
 
 </div>
 
@@ -418,7 +425,7 @@ I partner with forward-thinking enterprise leaders, CTOs, and Engineering Direct
 
 <br/>
 
-<a href="https://linkedin.com/in/parshuramjamdhade">
+<a href="https://www.linkedin.com/in/parshuram-jamdhade">
   <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;
